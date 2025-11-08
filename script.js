@@ -1,0 +1,21 @@
+console.log("Hola Mundo soy Jose Moya")
+
+var a = 1
+var b = 2
+
+var c = a+b
+
+console.log("El resultado es: ",c)
+
+function addClass(containerDiv, className){
+    console.log(containerDiv.classlist)
+    containerDiv.classList.add(className)
+}
+
+document.addEventListener("DOMContentLoaded", function(){
+    const containerDivs = document.querySelectorAll(".content")
+    console.log(containerDivs)
+    for (i=0; i < containerDivs.length;i++ ){
+        addClass(containerDivs[i], "juan")
+    }
+})
