@@ -5,7 +5,6 @@
 }
 
 .demo{
-    display: flex;
     gap: 15px;
     padding: 20px;
     background-color: aqua;
@@ -22,10 +21,16 @@
     transition: background-color 1s, transform 1s;
 }
 
-.content:hover{
+.fizz:hover{
     background-color: beige;
-    border: 1px solid black;
-    transform: translateY(-5px) translateX(-5px) rotate(5deg);
+}
+
+.buzz:hover{
+    transform: translateY(-5px) ;
+}
+
+.fizzbuzz:hover{
+    transform: rotate(5deg);
 }
 
 .juan{
