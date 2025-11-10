@@ -26,11 +26,11 @@
 }
 
 .buzz:hover{
-    transform: translateY(-5px) ;
+    transform: translateY(-5px);
 }
 
 .fizzbuzz:hover{
-    transform: rotate(5deg);
+    transform: rotate(5deg) translateY(-5px);
 }
 
 .juan{

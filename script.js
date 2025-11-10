@@ -44,6 +44,6 @@ function fizzbuzz(divisor, divisor2, square_cube, number){
 document.addEventListener("DOMContentLoaded", function(){
     console.log("Ya se cargo este DOM")
     const container = document.querySelector(".container")
-    createMatrix(5, container, 2, 3, )
+    createMatrix(5, container, 2, 3)
 })
 
